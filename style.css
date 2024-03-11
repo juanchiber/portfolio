@@ -1,0 +1,287 @@
+/* BARRA DE NAVEGACION  */
+
+html, body, footer {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.nav ul .start {
+   margin-right: 700px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: #ffffff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #38a3a5;
+}
+
+
+
+/* GENERAL -------------------------------------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #272222;
+    color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #000000;
+    z-index: 1000;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    height: 35vh;
+}
+
+.about-me, .skills, .projects, .contact {
+    padding: 20px;
+}
+
+.titles {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* PRESENTACION   --------------------------------------------------------------------------*/
+
+.presentation {
+    background-color: #251b1b;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.perfil {
+    padding-right: 50px;
+}
+
+.perfil img{
+    border-radius: 50%;
+    border: 4px solid #FFFFFF;
+}
+
+.perfil img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+.presentation p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* SOBRE MI   -------------------------------------------------------------------------- */
+
+.about-me {
+    height: 100vh;
+}
+
+.about {    
+    flex: 1; 
+    text-align: center; 
+    margin-top: 60px;
+}
+
+.about p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.avatar, .image-development {
+    flex: 0 0 15%; 
+    padding: 20px; 
+}
+
+.avatar img, .image-development img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.image-development img {
+    margin-top: 55px;
+}
+
+
+
+/* HABILIDADES  -------------------------------------------------------------------------- */
+
+.skills {
+    background-color: #3C3C3C;
+    height: 100vh;
+}
+
+.skills button {
+    color: #272222;
+}
+
+.all-skills, .about{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    justify-content: space-around; 
+}
+
+.front, .back, .tools, .testing {
+    flex: 1; 
+    text-align: center; 
+    margin: 10px; 
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.front:hover, .back:hover, .tools:hover, .testing:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    background-color: #272222;
+}
+
+
+.front img, .back img, .tools img, .testing img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 80%; 
+    height: auto; 
+}
+
+.technologies {
+    margin-bottom: 10px;
+}
+
+
+/* PROYECTOS -------------------------------------------------------------------------- */
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card {
+    width: 40%;
+    margin: 20px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    border: 3px solid #000000;
+    transition: transform 0.3s ease; 
+}
+
+.card:hover img {
+    opacity: 0.02;
+    transform: scale(1.1); 
+    border: 4px solid #FFFFFF;
+}
+
+.card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.card:hover .card-content {
+    opacity: 1; 
+   
+}
+
+.btn-card {
+    background-color: #899D78;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* CONTACTO  -------------------------------------------------------------------------- */
+
+.contact{
+    background-color: #000000;
+}
+
+.btn-contact {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+}
+
+.btn-contact button, .btn-contact a{
+    width: 18%;
+    height: auto;
+    margin: 0 10px;
+    border: 4px solid #272222;
+    border-radius: 3.125em;
+    color: #000000;
+    background-color: #8c8c8c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-contact button:hover, .btn-contact a:hover {
+    border: 3px solid #d3c5c5;
+    background-color: #3c3c3c;
+}
+
+.btn-contact img{
+    width: 1.875em;
+    height: 1.875em;
+    margin-right: 5px;
+}
+
+.contact p {
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}

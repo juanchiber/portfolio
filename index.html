@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Juan Bertucci</title>
+</head>
+
+<header>
+    <section class="navbar">
+        <nav class="nav">
+            <ul>
+                <div class="start">
+                    <a href="#presentation" class="smooth-scroll">JFB MyPortfolio</a>
+                </div>
+                <div class="nav-list">
+                    <a href="#about-me" class="smooth-scroll">Sobre mí</a>
+                    <a href="#skills" class="smooth-scroll">Habilidades</a>
+                    <a href="#projects" class="smooth-scroll">Proyectos</a>
+                    <a href="#contact" class="smooth-scroll">Contacto</a>
+
+                </div>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<body>
+    <section id="presentation" class="presentation">
+        <div class="perfil">
+            <img src="./images/perfil.jpeg" alt="Perfil">
+        </div>
+        <div>
+            <h3>Hola! Mi nombre es</h3>
+            <h1>Juan Francisco Bertucci</h1>
+            <p>Full Stack Developer</p>
+            <a href="./cv/mi_curriculum.pdf" download="mi_curriculum.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <section id="about-me" class="about-me">
+        <h1 class="titles"> ——— Sobre mí ——— </h1>
+        <div class="about">
+            <div class="avatar"><img src="./images/avatar-removebg-preview.png" alt="Avatar"></div>
+            <div>
+                <h3>Perfil profesional</h3>
+                <p>Hola de nuevo! Soy Juan. Un gusto en conocerte.</p>
+                <p>Tengo 27 años y actualmente me encuentro en la etapa final de mi formacion academica en la facultad de Cs.Exactas en 
+                    UNICEN (Tandil, Bs.As. Argentina). Durante mi proceso formativo he adquirido conocimientos tales como metodologías de 
+                    desarrollo, arquitecturas web, modelado de datos, diseño web, entre otros, para aplicar al título de desarrollador full-stack y técnico 
+                    de nivel universitario con habilidades para participar exitosamente en el desarrollo de aplicaciones o sistemas de información. </p>
+                <p>Personalmente hablando, soy una persona responsable, siempre dispuesto a asumir nuevos desafíos y crecer tanto personal como profesionalmente. 
+                    Mi objetivo es contribuir al éxito de proyectos y seguir aprendiendo en el proceso. Disfruto trabajar en equipo y creo en fomentar un ambiente 
+                    positivo y productivo.</p>
+            </div>
+            <div class="image-development"><img src="./images/web_small_banner-1-removebg-preview.png" alt="Development"></div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h1 class="titles"> ——— Habilidades ——— </h1>
+        <div class="all-skills">
+            <div class="front">
+                <h3>Frontend</h3>
+                <img src="./images/front-removebg-preview.png" alt="Imagen frontend">
+                <div class="technologies">
+                    <button>HTML5</button>
+                    <button>CSS3</button>
+                    <button>JavaScript</button>
+                    <button>PHP</button>
+                </div>
+            </div>
+            <div class="back">
+                <h3>Backend</h3>
+                <img src="./images/back-removebg-preview.png" alt="Imagen backend">
+                <div class="technologies">
+                    <button>JAVA</button>
+                    <button>JDBC</button>
+                    <button>JPA</button>
+                    <button>MySQL</button>
+                    <button>Spring</button>
+                   
+                </div>
+            </div>
+            <div class="tools">
+                <h3>Herramientas</h3>
+                <img src="./images/tools-removebg-preview.png" alt="Herramientas">
+                <div class="technologies">
+                    <button>GitHub</button>
+                    <button>Scrum</button>
+                    <button>Postman</button>
+                    <button>Figma</button>
+                </div>
+            </div>
+            <div class="testing">
+                <h3>Test</h3>
+                <img src="./images/test-removebg-preview.png" alt="Testing">
+                <div class="technologies">
+                    <button>TestNJ</button>
+                    <button>JUnit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h1 class="titles"> ——— Proyectos ——— </h1>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./images/GameGalaxy.png" alt="GameGalaxy">
+                <div class="card-content">
+                    <h3 class="card-title">GameGalaxy</h3>
+                    <p class="card-description">
+                        Tecnologias: HTML5, CSS3 y JavaScript
+                    </p>
+                    <p class="card-description">
+                        Descripcion: Proyecto frontend que consta de una pagina web de videojuegos. Destacados de la semana, recomendados, juegos pagos, carrito de compras, login de ingreso y juego "Junta 4 fichitas bobo" (4 en linea) disponible para jugar.
+                    </p>
+                    <a href="https://juanchiber.github.io/interfacesDeUsuario/TP3/GameGalaxy/home.html">
+                        <button class="btn-card">Ver proyecto</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/AppMono.png" alt="AppMonopatines">
+                <div class="card-content">
+                    <h3 class="card-title">App Monopatines</h3>
+                    <p class="card-description">
+                        Tecnologias: Java, MySQL, MongoDB
+                    </p>
+                    <p class="card-description">
+                        Descripcion: Proyecto backend de servicios REST sobre gestion de alquiler de monopatines bajo una arquitectura de microservicios. Viajes, usuarios, mantenimiento, roles, seguridad y mas.
+                    </p>
+                    <a href="https://github.com/scianca1/ArquitecturasWeb/tree/main/tpEspecial">
+                        <button class="btn-card">Ver proyecto</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/Spidey.png" alt="SpideyAndFriends">
+                <div class="card-content">
+                    <h3 class="card-title">Spidey and His Amazing Friends</h3>
+                    <p class="card-description">
+                        Tecnologias: HTML5, CSS3 y JavaScript
+                    </p>
+                    <p class="card-description">
+                        Descripcion: Proyecto frontend que consta de una pagina maquetada "pixel-perfect". Loader tematico, transiciones, efectos parallax, elementos animados, spritesheets y mas.
+                    </p>
+                    <a href="https://juanchiber.github.io/interfacesDeUsuario/TP4/">
+                        <button class="btn-card" a>Ver proyecto</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/GreenHigh.png" alt="GreenHighGrow">
+                <div class="card-content">
+                    <h3 class="card-title">Green High Growshop</h3>
+                    <p class="card-description">
+                        Tecnologias: PHP, Smarty, Bootstrap, MVC.
+                    </p>
+                    <p class="card-description">
+                        Descripcion: Proyecto frontend sobre una pagina web dedicada a un growshop la cual accede a una pequeña base de datos donde se encuentran los productos en venta.
+                    </p>
+                    <a href="https://github.com/juanchiber/GreenHigh">
+                        <button class="btn-card">Ver proyecto</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/lineaSubterraneos.png" alt="LineaSubterraneos">
+                <div class="card-content">
+                    <h3 class="card-title">Red de subterraneos</h3>
+                    <p class="card-description">
+                        Tecnologias: Java (algoritmos Backtracking y Greedy). Grafos, BFS y DFS.
+                    </p>
+                    <p class="card-description">
+                        Descripcion: Proyecto que supone la creacion de tuneles subterraneos que puedan comunicarse entre si mediante la aplicacion de las tecnicas algoritmicas Backtracking y Greedy.
+                    </p>
+                    <a href="https://github.com/juanchiber/BackAndGreedy">
+                        <button class="btn-card">Ver proyecto</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<footer>
+    <section id="contact" class="contact">
+        <h1 class="titles">Contactame!</h1>
+        <div class="btn-contact">
+            <button><img src="./images/telefono-removebg-preview.png" alt="icon-phone"><span>2494320900</span></button>
+            <a class="a-contact" href="https://github.com/juanchiber">
+                <img src="./images/github-removebg-preview.png" alt="icon-github"><span>GitHub</span>
+            </a>
+            <a class="a-contact" href="https://www.linkedin.com/in/juan-francisco-bertucci-886529259/">
+                <img src="./images/Logo-Linkedin.png" alt="icon-linkedin"><span>LinkedIn</span>
+            </a>
+            <button><img src="./images/gmail-removebg-preview.png" alt="icon-gmail"><span>juanbertucci97@gmail.com</span></button>
+        </div>
+        <p>© 2024. Juan Francisco Bertucci</p>
+    </section>
+</footer>
+
+</html>
